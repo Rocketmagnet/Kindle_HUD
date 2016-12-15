@@ -1,0 +1,12 @@
+EXCLUDE:
+Prospective Parents
+School Tour
+Sharing Assembly
+PSA book fair
+Maths workshop
+PSA tuck shop
+Governors Committee
+
+INCLUDE:
+Henry
+Year 3

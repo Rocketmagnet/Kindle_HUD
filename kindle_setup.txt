@@ -1,0 +1,36 @@
+These are instructions for installing Kindle_HUD on a Kindle 4NT. Since
+it's written in Python 2.7, it shouldn't be too hard to get it working
+on other platforms.
+
+Install Kindle_HUD:
+ 1. Connect your Kindle to your PC
+ 2. Copy the Kindle_HUD files into /Kindle_HUD
+
+Jailbreak it
+ 1. Install Python:  http://www.mobileread.com/forums/showthread.php?t=153930
+
+Switch to USB Net mode:
+ 1. Go to the search box.
+ 2. Search for ;debugOn
+ 3. Search for ~usbNetwork
+
+Find the IP address
+ 1. Press the keyboard button + page turn right
+ 2. Page turn right again on its own.
+ 
+Telnet in:
+ User: root
+ Password: fionae32
+
+Set the time and date:
+ 1. To set the date, type: date MMDDHHMMYYYY
+    (That's month day hour minute year)
+    example: date 112316102012 (this will set the Kindle to November 23 2012, 4:10pm
+ 2. To permanently store the time on the Kindle, type: hwclock -w
+
+
+Run the script:
+  1. cd /mnt/usr/Kindle_HUD/
+  2. ./Kindle_HUD.sh
+
+
